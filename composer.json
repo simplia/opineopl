@@ -1,8 +1,10 @@
 {
   "name": "simplia/opineopl",
-  "description": "Opineo.pl lient",
+  "description": "Opineo.pl client",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
+  "keywords": ["opineo","opineopl"],
+    "homepage": "https://github.com/simplia/opineopl",
   "authors": [
     {
       "name": "Petr Soukup",
