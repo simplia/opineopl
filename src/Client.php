@@ -37,7 +37,7 @@ class Client {
         }
         return new Request(
             'POST',
-            'http://www.wiarygodneopinie.pl/gate.php?' . http_build_query($query),
+            'https://www.opineo.pl/gate.php?' . http_build_query($query),
             ['Content-Type' => 'application/x-www-form-urlencoded'],
             http_build_query(['products' => json_encode($products)])
         );
